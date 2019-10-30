@@ -1,0 +1,93 @@
+*
+{
+margin:0;
+padding:0;
+
+}
+
+header
+{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(stars.jpg);
+height:100vh;
+background-size:cover;
+background-position:center;
+}
+
+.main-nav 
+{
+ float:right;
+ list-style:none;
+ margin-top:30px;
+}
+.main-nav li
+{
+display:inline-block; 
+}
+.main-nav li a
+{
+color:white;
+text-decoration:none;
+padding:5px 20px;
+font-family:"Roboto",sans-serif;
+font-size:15px;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+
+.main-nav ul li
+{
+vertical align: middle;
+margin:0px;
+float: left;
+background-color:black;
+color:white;
+width:200px;
+list-style:none;
+} 
+
+
+.logo img
+{
+width:80px;
+height:80px;
+float:left;
+}
+body
+{
+margin:0;
+padding:0;
+}
+
+h1
+{
+position:absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+text-align:center;
+margin:0;
+padding:0;
+color: #fff;
+font-family: sans-serif;
+text-transform: uppercase;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-bottom: 0%;
+    height: 100%;
+  }
+}
+}
+
